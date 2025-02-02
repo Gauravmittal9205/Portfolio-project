@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="file.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Playwrite+VN:wght@100..400&display=swap');
+</style>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav_container">
+            <a class="nav_logo"><span>Portfolio</span></a>
+            
+            <div class="nav_icons">
+                <div class="link"><a href="#">Home</a></div>
+                <div class="link"><a href="#about">About</a></div>
+                <div class="link"><a href="#skills">Skills</a></div>
+                <div class="link"><a href="#services">Services</a></div>
+                <div class="link"><a href="#project">Projects</a></div>
+                <div class="link contact"><a href="#">Contact</a></div>
+                
+                
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Skills</a>
+                <a href="">Services</a>
+                <a href="">Projects</a>
+                <a href="">Contact</a>
+                <i class="fa-solid fa-xmark Cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main_container">
+            <div class="image">
+                <img src="pro.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1>Hey I'm <span>Gaurav Mittal</span></h1>
+                <div class="typewriter">I'm a <span class="text1"></span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis delectus labore culpa corporis voluptatum repudiandae, nesciunt ratione alias minima aperiam, minus velit explicabo autem neque vel! Est cupiditate dolor soluta?</p>
+                <div class="social_links">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/gaurav-mittal-1407a22b9/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="btn">
+                    <button>Download CV</button>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+    <section id="about">
+        <div class="about_container">
+            <h1>About Me</h1>
+            <p>I am a dedicated and ambitious student with a passion for computer science. Currently, I am honing my skills in Java programming, python programming and exploring innovative solutions to real-world challenges.
+
+Beyond academics, I have a strong interest in software development projects. My recent work includes analyzing social media trends.
+
+I am always eager to learn and grow, embracing challenges that push my problem-solving and critical-thinking abilities. My goal is to apply my knowledge to impactful projects that drive innovation and efficiency.
+
+</p>
+<button class="learnbtn">Learn More</button>
+<button class="visit">Visit</button>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills_container">
+    <h2>My Skills</h2>
+        <p style="color: white;padding-left: 160px;padding-bottom: 50px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit voluptates sapiente deleniti tempore perspiciatis non doloribus voluptas! Magni sapiente ullam consectetur consequatur non quos expedita maxime dignissimos sunt, molestiae libero!</p> 
+    <div class="skills-cards">
+        <div class="skill-card">
+            <img src="png-transparent-html-computer-icons-web-page-world-wide-web-angle-rectangle-logo-thumbnail-removebg-preview.jpg" style="opacity: 0.3;" class="skill-img" alt="">
+            <div class="skill-level">98%</div>
+            <h1 class="skill-name">HTML</h1>
+            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+        </div>
+        <div class="skill-card">
+            <img src="images-removebg-preview.jpg" style="opacity: 0.3;" class="skill-img" alt="">
+            <div class="skill-level" >72%</div>
+            <h1 class="skill-name">CSS</h1>
+            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+        </div>
+        <div class="skill-card">
+            <img src="javascript-removebg-preview.jpg" style="opacity: 0.3;" class="skill-img" alt="">
+            <div class="skill-level">30%</div>
+            <h1 class="skill-name">Javascript</h1>
+            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+        </div>
+        <div class="skill-card">
+            <img src="images (1)-removebg-preview.jpg" style="opacity: 0.3;" class="skill-img" alt="">
+            <div class="skill-level">82%</div>
+            <h1 class="skill-name">Python</h1>
+            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+        </div>
+        <div class="skill-card">
+            <img src="png-clipart-gray-and-black-cylinder-icon-screengrab-database-server-computer-icons-sql-server-save-icon-format-miscellaneous-angle-removebg-preview.jpg" style="opacity: 0.3;" class="skill-img" alt="">
+            <div class="skill-level">50%</div>
+            <h1 class="skill-name">SQL</h1>
+            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
+        </div>
+        
+    </div>
+
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="services_container">
+        <h2>Services</h2>
+        <div class="services">
+            <div class="service">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Creating responsive and functional websites tailored to your needs.</p>
+                <button>Read More</button>
+            </div>
+            <div class="service">
+                <i class="fas fa-database"></i>
+                <h3>Backend Development</h3>
+                <p>Building robust server-side solutions to power your applications.</p>
+                <button>Read More</button>
+            </div>
+            <div class="service">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Designing user-friendly interfaces for a seamless experience.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+            
+        </div>
+    </section>
+    <section id="project">
+        <div class="services_container">
+        <h2>Projects</h2>
+        <div class="services">
+            <div class="service">
+                <img src="Screenshot 2025-01-30 230354.png" alt="">
+                <h3>Instagram Clone</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta expedita incidunt consequuntur.</p>
+                <i class="fa-solid fa-globe globe"></i>
+                <i class="fa-brands fa-github git"></i>
+                <i class="fa-solid fa-bars menu"></i>
+            </div>
+            <div class="service">
+                <img src="Screenshot 2025-01-30 230420.png" alt="">
+                <h3>Amazon Clone</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque, harum labore consequatur rem beatae!</p>
+                <i class="fa-solid fa-globe globe"></i>
+                <i class="fa-brands fa-github git"></i>
+                <i class="fa-solid fa-bars menu"></i>
+               
+            </div>
+            <div class="service">
+                <img src="Screenshot 2025-01-30 230555.png" alt="">
+                <h3>Youtube Clone</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum non, veniam neque vitae et rerum.</p>
+                <i class="fa-solid fa-globe globe"></i>
+                <i class="fa-brands fa-github git"></i>
+                <i class="fa-solid fa-bars menu"></i>
+               
+            </div>
+        </div>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact_container">
+            <div class="contact1">
+                <h2>Contact Me</h2>
+                <div class="contact_no">
+                    <i class="fa-solid fa-phone phone"></i>
+                    9411229831
+                    </div>
+            
+            <div class="email">
+                    <i class="fa-solid fa-envelope phone"></i>
+                    gauravmittal939@gmail.com
+                    </div>
+            
+            <div class="address">
+                    <i class="fa-solid fa-location-dot phone"></i>
+                    Mathura, Uttar Pradesh, India
+                    </div>
+                    <div class="social_links">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/gaurav-mittal-1407a22b9/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                </div>
+            
+            <div class="contact2">
+            
+            <form action="#" method="POST">
+                <p>Name</p>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <p>Email</p>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <p>Message</p>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            </div>
+        </div>
+    </section>
+    <section class="copyright">
+        <div class="follow">
+            <div class="sociallink">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/gaurav-mittal-1407a22b9/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <br>
+                    <button>Follow Me</button>
+                </div>
+            
+        </div>
+
+    </section>
+    
+</body>
+
+</html>
